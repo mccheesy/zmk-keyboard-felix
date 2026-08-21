@@ -1,3 +1,4 @@
+name: zmk-keyboard-felix
 build:
   settings:
     board_root: .

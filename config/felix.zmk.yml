@@ -1,0 +1,13 @@
+file_format: "1"
+id: felix
+name: Felix
+type: shield
+url: https://github.com/beekeeb/FelixKeeb
+requires: [nice_nano@2.0.0//zmk]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - felix_left
+  - felix_right

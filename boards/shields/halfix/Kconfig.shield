@@ -1,0 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+# Standalone (non-split) builds of a single Felix half.
+config SHIELD_HALFIX
+    def_bool $(shields_list_contains,halfix)
+
+config SHIELD_HALFIX_MIRRORED
+    def_bool $(shields_list_contains,halfix_mirrored)

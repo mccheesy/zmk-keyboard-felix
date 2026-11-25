@@ -5,6 +5,13 @@ include:
   - board: nice_nano@2.0.0//zmk
     shield: felix_right
     artifact-name: felix_right
+  # Standalone builds: a single half as its own keyboard (no split).
+  - board: nice_nano@2.0.0//zmk
+    shield: halfix
+    artifact-name: halfix
+  - board: nice_nano@2.0.0//zmk
+    shield: halfix_mirrored
+    artifact-name: halfix_mirrored
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
     artifact-name: settings_reset

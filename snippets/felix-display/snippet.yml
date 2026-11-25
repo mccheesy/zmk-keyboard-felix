@@ -1,0 +1,5 @@
+# Enables the Felix OLED display. The display is off by default; add this
+# snippet to a felix_left or felix_right build (split or standalone) to turn it on.
+name: felix-display
+append:
+  EXTRA_CONF_FILE: felix-display.conf
